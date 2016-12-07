@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView textView = new TextView(this);
-        textView.setText("Hoai");
+        TextView textView = (TextView) findViewById(R.id.test_tv);
+        textView.setText("Nhoi");
     }
 }
