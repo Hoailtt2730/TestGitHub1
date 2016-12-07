@@ -2,6 +2,7 @@ package jp.co.systena.android.car.testgithub;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView textView = (TextView) findViewById(R.id.test_tv);
         textView.setText("Nhoi");
+        textView.setGravity(Gravity.CENTER);
     }
 }
